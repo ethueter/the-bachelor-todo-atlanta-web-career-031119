@@ -48,7 +48,7 @@ def get_occupation(data, hometown)
        
       if catagory["hometown"] == hometown
         job = catagory["occupation"]
-         
+         binding.pry 
        
       end
     end
