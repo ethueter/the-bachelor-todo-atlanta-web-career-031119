@@ -3,13 +3,12 @@ require 'pry'
 def get_first_name_of_season_winner(data, season)
   first_name = nil 
   data[season].each do |contestant|
-    if contestant.include?("winner")
+    if contestant.include?("Winner")
     contestant.each do |catagory, data|
-      binding.pry
       if catagory.include?("name") 
         step = data.split
         first_name = step[0]
-        binding.pry 
+         
       end
     end
    end 
