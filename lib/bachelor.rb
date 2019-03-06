@@ -46,9 +46,10 @@ def get_occupation(data, hometown)
   data.each do |season, contestant|
     contestant.each do |catagory|
       until x == 1 
-      catagory["hometown"] == hometown
+      if catagory["hometown"] == hometown
         job = catagory["occupation"]
         x += 1 
+      end 
       end
     end
   end
