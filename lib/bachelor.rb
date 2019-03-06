@@ -9,7 +9,7 @@ def get_first_name_of_season_winner(data, season)
         if b.include?("name")
          step = b[1].split
          name = step[0]
-      
+      binding.pry 
    end 
   end 
   end 
