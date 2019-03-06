@@ -6,7 +6,7 @@ def get_first_name_of_season_winner(data, season)
     contestant.each do |catagory, data|
       if catagory.include?("name")
         step = data.split
-        binding.pry 
+        
         first_name = step[0]
       end
     end
