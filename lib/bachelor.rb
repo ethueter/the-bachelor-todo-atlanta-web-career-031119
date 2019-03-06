@@ -2,13 +2,15 @@ require 'pry'
 
 def get_first_name_of_season_winner(data, season)
   name = nil 
-  season.each do |season, info|
+  data.each do |season, info|
+    if season == #{season}
     info.each do |a|
       a.each do |b|
         if b.include?("name")
          step = b[1].split
          name = step[0]
      binding.pry 
+   end 
   end 
   end 
   end 
