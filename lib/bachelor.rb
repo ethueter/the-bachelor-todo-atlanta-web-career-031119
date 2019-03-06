@@ -4,14 +4,8 @@ def get_first_name_of_season_winner(data, season)
   answer = nil 
   
   data[season].each do |a, b|
-  end 
-        
-       
-   
-  
-  
   binding.pry
-  
+  end 
   answer 
 end
 
