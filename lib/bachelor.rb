@@ -5,7 +5,7 @@ def get_first_name_of_season_winner(data, season)
   data[season].each do |contestant|
     contestant.each do |stat, data|
       if stat.include?("name")
-        step = stat[1].split
+        step = data[1].split
         first_name = step[0]
       end
     end
