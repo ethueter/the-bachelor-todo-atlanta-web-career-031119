@@ -47,7 +47,7 @@ def get_occupation(data, hometown)
     contestant.each do |catagory|
        
       if catagory["hometown"] == hometown
-        job = catagory["occupation"]
+        job = catagory["occupation"].find 
          binding.pry 
        
       end
