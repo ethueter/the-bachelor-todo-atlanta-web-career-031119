@@ -1,10 +1,10 @@
 require 'pry'
 
 def get_first_name_of_season_winner(data, season)
-  name = nil 
+  answer = nil 
   
   data["#{season}"].each do |x, info|
-    if name == nil  
+    if answer == nil  
     info.each do |a|
       a.each do |b|
         if b.include?("name")
@@ -18,7 +18,7 @@ def get_first_name_of_season_winner(data, season)
   binding.pry
   end 
   end
-  name 
+  answer 
 end
 
 def get_contestant_name(data, occupation)
