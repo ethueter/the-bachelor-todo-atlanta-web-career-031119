@@ -10,7 +10,7 @@ def get_first_name_of_season_winner(data, season)
         step = data.split
         first_name = step[0]
       end
-   
+   end 
   end
   end 
   first_name 
