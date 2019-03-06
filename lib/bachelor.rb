@@ -6,7 +6,7 @@ def get_first_name_of_season_winner(data, season)
     info.each do |a|
       a.each do |b|
         if b.include?("name")
-          
+         step = b[1].split
     binding.pry 
   end 
   end 
