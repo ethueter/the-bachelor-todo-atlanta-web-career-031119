@@ -29,7 +29,7 @@ def get_contestant_name(data, occupation)
 end
 
 def count_contestants_by_hometown(data, hometown)
-  final_number = nil
+  final_number = 0 
   data.each do |season, contestant|
     contestant.each do |catagory|
       if catagory["hometown"] == hometown 
