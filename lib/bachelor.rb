@@ -8,7 +8,7 @@ def get_first_name_of_season_winner(data, season)
       if catagory.include?("name") 
         step = data.split
         first_name = step[0]
-        
+        binding.pry 
       end
     end
    end 
