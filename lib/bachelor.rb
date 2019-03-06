@@ -4,6 +4,7 @@ def get_first_name_of_season_winner(data, season)
   name = nil 
   data.each do |season, info|
     info.each do |a|
+      a.each do |b|
     binding.pry 
   end 
   end
