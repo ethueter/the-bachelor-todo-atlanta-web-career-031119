@@ -7,6 +7,7 @@ def get_first_name_of_season_winner(data, season)
       a.each do |b|
     binding.pry 
   end 
+  end 
   end
 end
 
