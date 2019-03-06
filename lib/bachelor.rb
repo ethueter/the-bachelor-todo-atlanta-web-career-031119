@@ -4,7 +4,11 @@ def get_first_name_of_season_winner(data, season)
   first_name = nil 
   data[season].each do |contestant|
     if contestant["status"].include?("Winner")
-    binding.pry 
+      contestant.each do |catagory, data|
+        step = data.split
+        first_name = step[0]
+      end
+   
   end
   end 
   first_name 
