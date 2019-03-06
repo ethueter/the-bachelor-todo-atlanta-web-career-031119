@@ -4,7 +4,7 @@ def get_first_name_of_season_winner(data, season)
   first_name = nil 
   data[season].each do |contestant|
     contestant.each do |catagory, data|
-      if catagory.include?("name")
+      if catagory.include?("name") 
         step = data.split
         first_name = step[0]
         binding.pry 
