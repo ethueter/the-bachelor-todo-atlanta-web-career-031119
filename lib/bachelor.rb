@@ -12,8 +12,9 @@ def get_first_name_of_season_winner(data, season)
          name = step[0]
        
    end
-   binding.pry 
+    
   end 
+  binding.pry
   end 
   end 
   end
