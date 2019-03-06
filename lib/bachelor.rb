@@ -2,6 +2,7 @@ require 'pry'
 
 def get_first_name_of_season_winner(data, season)
   name = nil 
+  
   data.each do |x, info|
     if x == season 
     info.each do |a|
@@ -9,8 +10,9 @@ def get_first_name_of_season_winner(data, season)
         if b.include?("name")
          step = b[1].split
          name = step[0]
-      binding.pry 
-   end 
+       
+   end
+   binding.pry 
   end 
   end 
   end 
