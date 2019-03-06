@@ -7,11 +7,13 @@ def get_first_name_of_season_winner(data, season)
       a.each do |b|
         if b.include?("name")
          step = b[1].split
-    binding.pry 
+         name = step[0]
+     
   end 
   end 
   end 
   end
+  name 
 end
 
 def get_contestant_name(data, occupation)
